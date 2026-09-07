@@ -92,3 +92,22 @@ footer{
         margin: 0.5rem 0;
     }
 }
+
+#scrollTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    background-color: #10233e;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+#scrollTopBtn:hover {
+    background-color: #1a3a63;
+}
